@@ -1,22 +1,33 @@
-.App {
+body{
+  background-image: url('/instagramBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.jumbotron{
+  background-color: rgba(214, 21, 111, 0.575);
+  opacity: .7;
+  font-weight: 300;
+
+
+}
+
+
+
+
+.container {
+  text-align:center;
+  justify-content: center;
+}
+
+
+.h1{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #09d3ac;
-}
+
+
+
